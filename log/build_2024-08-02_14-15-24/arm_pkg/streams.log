@@ -1,0 +1,47 @@
+[0.008s] Invoking command in '/home/jared/dev_ws/build/arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/jared/dev_ws/src/arm_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jared/dev_ws/install/arm_pkg
+[0.215s] -- The C compiler identification is GNU 13.2.0
+[0.700s] -- The CXX compiler identification is GNU 13.2.0
+[1.121s] -- Detecting C compiler ABI info
+[1.302s] -- Detecting C compiler ABI info - done
+[1.311s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.312s] -- Detecting C compile features
+[1.313s] -- Detecting C compile features - done
+[1.375s] -- Detecting CXX compiler ABI info
+[1.566s] -- Detecting CXX compiler ABI info - done
+[1.574s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.575s] -- Detecting CXX compile features
+[1.575s] -- Detecting CXX compile features - done
+[1.581s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.704s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.774s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.824s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.918s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.918s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.919s] -- Added test 'lint_cmake' to check CMake code style
+[1.920s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.921s] -- Added test 'xmllint' to check XML markup files
+[1.924s] -- Configuring done (1.9s)
+[1.928s] -- Generating done (0.0s)
+[1.929s] -- Build files have been written to: /home/jared/dev_ws/build/arm_pkg
+[1.933s] Invoked command in '/home/jared/dev_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake /home/jared/dev_ws/src/arm_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jared/dev_ws/install/arm_pkg
+[1.934s] Invoking command in '/home/jared/dev_ws/build/arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jared/dev_ws/build/arm_pkg -- -j16 -l16
+[1.962s] Invoked command in '/home/jared/dev_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/jared/dev_ws/build/arm_pkg -- -j16 -l16
+[1.984s] Invoking command in '/home/jared/dev_ws/build/arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/jared/dev_ws/build/arm_pkg
+[1.990s] -- Install configuration: ""
+[1.990s] -- Execute custom install script
+[1.991s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/ament_index/resource_index/package_run_dependencies/arm_pkg
+[1.998s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/ament_index/resource_index/parent_prefix_path/arm_pkg
+[2.005s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.sh
+[2.012s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.dsv
+[2.019s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/environment/path.sh
+[2.025s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/environment/path.dsv
+[2.031s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/local_setup.bash
+[2.038s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/local_setup.sh
+[2.044s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/local_setup.zsh
+[2.051s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/local_setup.dsv
+[2.058s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/package.dsv
+[2.065s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/ament_index/resource_index/packages/arm_pkg
+[2.072s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig.cmake
+[2.079s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/cmake/arm_pkgConfig-version.cmake
+[2.086s] -- Symlinking: /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/package.xml
+[2.094s] Invoked command in '/home/jared/dev_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/jared/dev_ws/build/arm_pkg
