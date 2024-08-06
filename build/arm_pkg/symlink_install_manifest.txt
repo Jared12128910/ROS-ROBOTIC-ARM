@@ -1,8 +1,10 @@
+/home/jared/dev_ws/install/arm_pkg/share/arm_pkg/launch/controller.launch.py
+/home/jared/dev_ws/install/arm_pkg/share/arm_pkg/launch/moveit.launch.py
 /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/launch/rsp.launch.py
 /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/description/robot.urdf.xacro
-/home/jared/dev_ws/install/arm_pkg/share/arm_pkg/config/main.rviz
 /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/config/my_robot_config.rviz
 /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/worlds/empty.world
+/home/jared/dev_ws/install/arm_pkg/lib/arm_pkg/joint_control.py
 /home/jared/dev_ws/install/arm_pkg/share/ament_index/resource_index/package_run_dependencies/arm_pkg
 /home/jared/dev_ws/install/arm_pkg/share/ament_index/resource_index/parent_prefix_path/arm_pkg
 /home/jared/dev_ws/install/arm_pkg/share/arm_pkg/environment/ament_prefix_path.sh

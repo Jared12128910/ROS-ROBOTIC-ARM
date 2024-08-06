@@ -529,3 +529,48 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/jared/anaconda3/lib/cmake/boost_thread-1.82.0/boost_thread-config.cmake:118 (find_dependency)"
+      - "/home/jared/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake:141 (find_package)"
+      - "/home/jared/anaconda3/lib/cmake/Boost-1.82.0/BoostConfig.cmake:262 (boost_find_component)"
+      - "/usr/share/cmake-3.28/Modules/FindBoost.cmake:594 (find_package)"
+      - "/opt/ros/jazzy/share/moveit_core/cmake/ConfigExtras.cmake:3 (find_package)"
+      - "/opt/ros/jazzy/share/moveit_core/cmake/moveit_coreConfig.cmake:41 (include)"
+      - "CMakeLists.txt:37 (find_package)"
+    directories:
+      source: "/home/jared/dev_ws/build/arm_pkg/CMakeFiles/CMakeScratch/TryCompile-CsVBwR"
+      binary: "/home/jared/dev_ws/build/arm_pkg/CMakeFiles/CMakeScratch/TryCompile-CsVBwR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/jared/dev_ws/build/arm_pkg/CMakeFiles/CMakeScratch/TryCompile-CsVBwR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_06b52/fast
+        gmake[1]: Entering directory '/home/jared/dev_ws/build/arm_pkg/CMakeFiles/CMakeScratch/TryCompile-CsVBwR'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_06b52.dir/build.make CMakeFiles/cmTC_06b52.dir/build
+        gmake[2]: Entering directory '/home/jared/dev_ws/build/arm_pkg/CMakeFiles/CMakeScratch/TryCompile-CsVBwR'
+        Building C object CMakeFiles/cmTC_06b52.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_06b52.dir/src.c.o -c /home/jared/dev_ws/build/arm_pkg/CMakeFiles/CMakeScratch/TryCompile-CsVBwR/src.c
+        Linking C executable cmTC_06b52
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06b52.dir/link.txt --verbose=1
+        /usr/bin/cc CMakeFiles/cmTC_06b52.dir/src.c.o -o cmTC_06b52 
+        gmake[2]: Leaving directory '/home/jared/dev_ws/build/arm_pkg/CMakeFiles/CMakeScratch/TryCompile-CsVBwR'
+        gmake[1]: Leaving directory '/home/jared/dev_ws/build/arm_pkg/CMakeFiles/CMakeScratch/TryCompile-CsVBwR'
+        
+      exitCode: 0
+...

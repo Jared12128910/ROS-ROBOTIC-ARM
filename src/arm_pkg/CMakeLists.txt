@@ -28,4 +28,11 @@ install(
   DESTINATION share/${PROJECT_NAME}
 )
 
+install(
+  PROGRAMS
+  controller/joint_control.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+
 ament_package()

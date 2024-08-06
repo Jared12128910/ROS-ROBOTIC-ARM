@@ -26,13 +26,6 @@ def generate_launch_description():
         parameters=[{'robot_description': robot_description_config, 'use_sim_time': use_sim_time}]
     )
 
-    # Create a joint_state_publisher node
-    node_joint_state_publisher = Node(
-        package='joint_state_publisher',
-        executable='joint_state_publisher',
-        output='screen',
-        parameters=[{'robot_description': robot_description_config}]
-    )
 
     # Launch!
     return LaunchDescription([
@@ -45,6 +38,5 @@ def generate_launch_description():
             default_value='true',
             description='Use ros2_control if true'),
         
-        node_robot_state_publisher,
-        node_joint_state_publisher
+        node_robot_state_publisher
     ])

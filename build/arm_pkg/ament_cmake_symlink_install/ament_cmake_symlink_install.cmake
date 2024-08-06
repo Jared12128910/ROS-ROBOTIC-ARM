@@ -313,6 +313,9 @@ message(STATUS "Execute custom install script")
 # install(DIRECTORY "launch" "description" "config" "worlds" "DESTINATION" "share/arm_pkg")
 ament_cmake_symlink_install_directory("/home/jared/dev_ws/src/arm_pkg" DIRECTORY "launch" "description" "config" "worlds" "DESTINATION" "share/arm_pkg")
 
+# install(PROGRAMS "controller/joint_control.py" "DESTINATION" "lib/arm_pkg")
+ament_cmake_symlink_install_programs("/home/jared/dev_ws/src/arm_pkg" PROGRAMS "controller/joint_control.py" "DESTINATION" "lib/arm_pkg")
+
 # install(FILES "/home/jared/dev_ws/build/arm_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arm_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/jared/dev_ws/src/arm_pkg" FILES "/home/jared/dev_ws/build/arm_pkg/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/arm_pkg" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
