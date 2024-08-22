@@ -15,21 +15,21 @@ class JointControlNode(Node):
         self.get_logger().info("Joint control node has been started")
 
     def publish_joint_states(self):
-        # Increment angle
-        self.angle += 0.1
-        if self.angle > 2 * math.pi:
-            self.angle -= 2 * math.pi
 
-        # Generate joint positions with a simple incrementing pattern
-        joint1_position = 0.71758977
-        joint2_position = 0.38226679
-        joint3_position = 0.58294707
-        joint4_position = 0.60556263
-        joint5_position = -1.57079801
-        joint6_position = -2.28838609
+        # Generate joint positions with a simple incrementing pattern   !    1.57075     !
+        joint1_position =0.000+1.57075*2.000
+        joint2_position =0.000+1.57075*2.000
+        joint3_position =0.000
+        joint4_position =1.57075*2.000
+        joint5_position =0.000+1.57075*2.000
+        joint6_position =0.000
+
+
+
+
 
         # Log joint positions
-        self.get_logger().info(f"Joint positions: {joint1_position}, {joint2_position}, {joint3_position}, {joint4_position}, {joint5_position}, {joint6_position}")
+        #self.get_logger().info(f"Joint positions: {joint1_position}, {joint2_position}, {joint3_position}, {joint4_position}, {joint5_position}, {joint6_position}")
 
         joint_state = JointState()
         joint_state.header = Header()
@@ -40,7 +40,7 @@ class JointControlNode(Node):
         joint_state.effort = []
 
         # Log joint state message before publishing
-        self.get_logger().info(f"Publishing joint state: {joint_state}")
+        #self.get_logger().info(f"Publishing joint state: {joint_state}")
 
         self.joint_publisher.publish(joint_state)
 

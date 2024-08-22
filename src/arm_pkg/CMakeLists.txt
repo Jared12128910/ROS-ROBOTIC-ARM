@@ -34,5 +34,11 @@ install(
   DESTINATION lib/${PROJECT_NAME}
 )
 
+install(
+  PROGRAMS
+  scripts/jointSubscriber.py
+  DESTINATION lib/${PROJECT_NAME}
+)
+
 
 ament_package()
