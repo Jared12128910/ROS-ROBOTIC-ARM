@@ -1,0 +1,1 @@
+Invoking command in '/home/jared/dev_ws/build/arm_pkg': /usr/bin/cmake /home/jared/dev_ws/src/arm_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jared/dev_ws/install/arm_pkg

@@ -1,0 +1,2 @@
+Invoking command in '/home/jared/dev_ws/build/moteus_msgs': /usr/bin/cmake /home/jared/dev_ws/src/moteus_ros2/src/moteus_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jared/dev_ws/install/moteus_msgs
+Invoked command in '/home/jared/dev_ws/build/moteus_msgs' returned '1': /usr/bin/cmake /home/jared/dev_ws/src/moteus_ros2/src/moteus_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jared/dev_ws/install/moteus_msgs

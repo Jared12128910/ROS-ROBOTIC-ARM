@@ -1,0 +1,126 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "moteus_msgs/msg/PositionCommand",
+      "fields": [
+        {
+          "name": "position",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "velocity",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "feedforward_torque",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "kp_scale",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "kd_scale",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "maximum_torque",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "stop_position",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "watchdog_timeout",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "velocity_limit",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "accel_limit",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "fixed_voltage_override",
+          "type": {
+            "type_id": 154,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "moteus_msgs/msg/PositionCommand",
+      "hash_string": "RIHS01_675624896d5d7ba5ca36e9d8d21d46d6ec8b4d436fd40f682bbbebb5a8e490ad"
+    }
+  ]
+}

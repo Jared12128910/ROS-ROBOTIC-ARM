@@ -1,0 +1,8 @@
+{
+  "package_name": "moteus_msgs",
+  "output_dir": "/home/jared/dev_ws/build/moteus_msgs/rosidl_generator_type_description/moteus_msgs",
+  "idl_tuples": [
+    "/home/jared/dev_ws/build/moteus_msgs/rosidl_adapter/moteus_msgs:msg/PositionCommand.idl",
+    "/home/jared/dev_ws/build/moteus_msgs/rosidl_adapter/moteus_msgs:msg/ControllerState.idl"
+  ]
+}

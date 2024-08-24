@@ -1,0 +1,32 @@
+[0.006s] Invoking command in '/home/jared/dev_ws/build/moteus_msgs': /usr/bin/cmake /home/jared/dev_ws/src/moteus_ros2/src/moteus_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jared/dev_ws/install/moteus_msgs
+[0.089s] -- The C compiler identification is GNU 13.2.0
+[0.510s] -- The CXX compiler identification is GNU 13.2.0
+[0.908s] -- Detecting C compiler ABI info
+[1.105s] -- Detecting C compiler ABI info - done
+[1.113s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.113s] -- Detecting C compile features
+[1.114s] -- Detecting C compile features - done
+[1.185s] -- Detecting CXX compiler ABI info
+[1.378s] -- Detecting CXX compiler ABI info - done
+[1.387s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.387s] -- Detecting CXX compile features
+[1.388s] -- Detecting CXX compile features - done
+[1.945s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[1.945s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[1.945s]   has asked CMake to find a package configuration file provided by
+[1.945s]   "ament_cmake", but CMake did not find one.
+[1.945s] 
+[1.945s]   Could not find a package configuration file provided by "ament_cmake" with
+[1.945s]   any of the following names:
+[1.945s] 
+[1.945s]     ament_cmakeConfig.cmake
+[1.945s]     ament_cmake-config.cmake
+[1.945s] 
+[1.945s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[1.945s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[1.945s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[1.945s]   has been installed.
+[1.945s] 
+[1.945s] [0m
+[1.946s] -- Configuring incomplete, errors occurred!
+[1.948s] Invoked command in '/home/jared/dev_ws/build/moteus_msgs' returned '1': /usr/bin/cmake /home/jared/dev_ws/src/moteus_ros2/src/moteus_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jared/dev_ws/install/moteus_msgs

@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+launch/example_launch.yaml
+moteus_control/__init__.py
+moteus_control/moteus_node.py
+moteus_control.egg-info/PKG-INFO
+moteus_control.egg-info/SOURCES.txt
+moteus_control.egg-info/dependency_links.txt
+moteus_control.egg-info/entry_points.txt
+moteus_control.egg-info/requires.txt
+moteus_control.egg-info/top_level.txt
+moteus_control.egg-info/zip-safe
+resource/moteus_control

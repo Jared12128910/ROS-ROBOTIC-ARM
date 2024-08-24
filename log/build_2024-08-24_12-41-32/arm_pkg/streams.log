@@ -1,0 +1,31 @@
+[0.008s] Invoking command in '/home/jared/dev_ws/build/arm_pkg': /usr/bin/cmake /home/jared/dev_ws/src/arm_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jared/dev_ws/install/arm_pkg
+[0.086s] -- The C compiler identification is GNU 13.2.0
+[0.513s] -- The CXX compiler identification is GNU 13.2.0
+[0.911s] -- Detecting C compiler ABI info
+[1.108s] -- Detecting C compiler ABI info - done
+[1.116s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.116s] -- Detecting C compile features
+[1.117s] -- Detecting C compile features - done
+[1.188s] -- Detecting CXX compiler ABI info
+[1.389s] -- Detecting CXX compiler ABI info - done
+[1.397s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.398s] -- Detecting CXX compile features
+[1.398s] -- Detecting CXX compile features - done
+[2.016s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[2.016s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[2.016s]   has asked CMake to find a package configuration file provided by
+[2.016s]   "ament_cmake", but CMake did not find one.
+[2.016s] 
+[2.016s]   Could not find a package configuration file provided by "ament_cmake" with
+[2.016s]   any of the following names:
+[2.016s] 
+[2.016s]     ament_cmakeConfig.cmake
+[2.016s]     ament_cmake-config.cmake
+[2.016s] 
+[2.016s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[2.016s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[2.017s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[2.017s]   has been installed.
+[2.017s] 
+[2.017s] [0m
+[2.017s] -- Configuring incomplete, errors occurred!

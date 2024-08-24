@@ -1,4 +1,0 @@
-Invoking command in '/home/jared/dev_ws/build/arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jared/dev_ws/build/arm_pkg -- -j16 -l16
-Invoked command in '/home/jared/dev_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/jared/dev_ws/build/arm_pkg -- -j16 -l16
-Invoking command in '/home/jared/dev_ws/build/arm_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jared/dev_ws/build/arm_pkg
-Invoked command in '/home/jared/dev_ws/build/arm_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/jared/dev_ws/build/arm_pkg
